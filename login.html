@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="greeting" id="greeting">
+            <h2 id="greeting-text">Welcome Back!</h2>
+            <p id="greeting-message">Please login to continue.</p>
+        </div>
+        <div class="form-container">
+            <div class="form-inner" id="form-inner">
+                <div class="form login-form">
+                    <h2>Login</h2>
+                    <form>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                    <p class="toggle-text">Don't have an account? <span id="signup-button">Sign Up</span></p>
+                </div>
+                <div class="form signup-form">
+                    <h2>Sign Up</h2>
+                    <form>
+                        <input type="text" placeholder="User Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                    <p class="toggle-text">Already have an account? <span id="login-button">Login</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="loginwork.js"></script>
+</body>
+</html>
