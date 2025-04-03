@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(images/lilac-acrylic-texture-background-wallpaper.jpg);
+    background: url(/images/lilac-acrylic-texture-background-wallpaper.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
